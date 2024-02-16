@@ -35,7 +35,7 @@
 
 ## Netlify Link
  
- [Deployed with Netlify](https://65cf6d3ec454e00009c9c714--router-react-dom-task.netlify.app/)
+ [Deployed with Netlify](https://react-task-router.netlify.app/)
 
 
 # React + Vite
