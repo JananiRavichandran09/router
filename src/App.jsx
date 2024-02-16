@@ -8,6 +8,8 @@ import Fullstack from './components/Fullstack';
 import Datascience from './components/Datascience';
 import Cybersecurity from './components/Cybersecurity';
 import Career from './components/Career';
+import Footer from './components/Footer';
+
 
 const App = () => {
   let data = [{
@@ -105,7 +107,9 @@ const App = () => {
           <Route path='/cybersecurity' element={<Cybersecurity data={data} />} />
           <Route path='/career' element={<Career data={data} />} />
         </Routes>
-
+        <div>
+          <Footer />
+        </div>
       </BrowserRouter>
     </div>
   );
